@@ -35,3 +35,4 @@ var compare = function(userChoice, computerChoice)
         }
     }
 };
+compare(userChoice, computerChoice);
