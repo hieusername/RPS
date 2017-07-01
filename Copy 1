@@ -7,10 +7,11 @@ if (computerChoice < 0.34) {
 	computerChoice = "paper";
 } else {
 	computerChoice = "scissors";
-} console.log("Computer: " + computerChoice);
-
+} 
+console.log("Computer: " + computerChoice);
+console.log("User:" + userChoice);
 var compare = function(userChoice, computerChoice)
-{ console.log(userChoice);
+{
     if (userChoice === computerChoice)
         return "The result is a tie!";
     else if (userChoice === "rock") {
